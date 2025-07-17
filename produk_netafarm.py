@@ -24,11 +24,11 @@ def scrape_prodnetafarm():
     dataProduk =[]
     for i in range(0, 10):
         soup = BeautifulSoup(driver.page_source, "html.parser")
-        containers = soup.findAll('a', attrs = {'class' : 'oQ94Awb6LlTiGByQZo8Lyw== IM26HEnTb-krJayD-R0OHw=='})
+        containers = soup.findAll('a', attrs = {'data-theme' : 'Ui5-B4CDAk4Cv-cjLm4o0g== XeGJAOdlJaxl4+UD3zEJLg=='})
         for container in containers:
             try:
                 nama = container.find('span').text
-                harga = container.find('div', attrs = {'class' : '_67d6E1xDKIzw+i2D2L0tjw=='}).text
+                harga = container.find('div', attrs = {'class' : 'urMOIDHH7I0Iy1Dv2oFaNw=='}).text
                 dataProduk.append([nama,harga])
             except AttributeError:
                 continue
