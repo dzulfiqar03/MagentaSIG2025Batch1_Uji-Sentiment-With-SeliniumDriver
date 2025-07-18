@@ -1,5 +1,6 @@
 .venv/
+__pycache__/
 tesseleniumexcel.py
 main.py
 .gitignore
-.classification/Muhammad_Dzulfiqar_1204220062_Tugas_data_lexicon_labeled.csv
+classification/Muhammad_Dzulfiqar_1204220062_Tugas_data_lexicon_labeled.csv

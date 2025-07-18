@@ -1,0 +1,11 @@
+Unnamed: 0.1,Unnamed: 0,Produk,Ulasan,Perusahaan,Ulasan_preprocessed,label_sentiment,predicted_label_svm,predicted_label_log_reg,predicted_label_rf,predicted_label_nb,predicted_label_knn
+55,55,Netpot 5cm Putih + Flanel Sumbu Hidroponik ( Set 100pcs ),Worth The Price,Netafarm,worth price,1,1,1,1,1,1
+39,39,Pupuk Meroke Mikro Fitoflex - Kemasan original 1 Dus ( 50 pcs ),"Performa: Ok
+Kualitas pengerjaan: Ok",Netafarm,performa ok kualitas kerja ok,1,1,1,0,1,1
+4,4,Tray Semai 288 Lubang Traypot Pot Bibit Biji Tray Nampan Hidroponik,Sesuai pesanan,Netafarm,sesuai pesan,1,1,1,1,1,1
+19,19,Pupuk NPK PAK TANI Mutiara Biru 16-16-16 Penyubur Tanaman 1 KG Kalium Padi,Mantap pengiriman jg cepet,Netafarm,mantap kirim cepat,1,1,1,1,1,1
+45,45,PUPUK MEROKE VITAFLEX - 500gr,Terimakasih,Netafarm,terimakasih,0,1,0,0,0,0
+13,13,Pupuk Meroke NPK Mutiara Professional 9-25-25 Kemasan Repacking 1kg,Bagus,Netafarm,bagus,1,1,1,1,1,1
+58,58,Pupuk Nutrisi Hidroponik AB Mix NETAFARM - SAYUR DAUN 100 lt - PREMIUM,👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼,Netafarm,,0,1,1,0,1,1
+12,12,Pupuk Meroke NPK Mutiara Professional 9-25-25 Kemasan Repacking 1kg,Bagus,Netafarm,bagus,1,1,1,1,1,1
+9,9,"Belerang Bubuk Halus Sulfur Powder Belerang Sulfur 99,8% - 500gr",MANTAPPPPP,Netafarm,mantappppp,0,0,1,0,1,0
