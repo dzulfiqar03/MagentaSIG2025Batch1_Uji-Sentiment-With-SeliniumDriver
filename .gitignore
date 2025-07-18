@@ -1,3 +1,5 @@
 .venv/
-"# tes selenium excel.py"
+tesseleniumexcel.py
 main.py
+.gitignore
+.classification/Muhammad_Dzulfiqar_1204220062_Tugas_data_lexicon_labeled.csv

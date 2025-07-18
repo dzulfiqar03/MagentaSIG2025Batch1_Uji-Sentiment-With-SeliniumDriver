@@ -33,7 +33,7 @@ def textClassification(url_path, file_path):
     X = vectorizer.fit_transform(texts)
 
     # Bagi data menjadi data latih dan uji
-    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.5, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.1, random_state=42)
 
     # Model SVM dengan kernel linear
     model = SVC(kernel='linear', C=1.0)
@@ -64,7 +64,7 @@ def textClassification(url_path, file_path):
     X = vectorizer.fit_transform(texts)
 
     # Membagi data menjadi data latih dan uji
-    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.5, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.1, random_state=42)
 
     # Melatih model SVM dengan kernel linear
     model = SVC(kernel='linear', C=1.0)
@@ -88,7 +88,7 @@ def textClassification(url_path, file_path):
     X = vectorizer.fit_transform(texts.astype(str)) # Convert to string type explicitly
 
     # Membagi data menjadi data latih dan uji
-    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.5, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.1, random_state=42)
 
     with open('classification/vectorizer.pkl', 'wb') as f:
         pickle.dump(vectorizer, f)
@@ -141,7 +141,7 @@ def textClassification(url_path, file_path):
     from sklearn.metrics import accuracy_score, classification_report
 
     # Pembagian data (gunakan stratifikasi jika diperlukan)
-    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.5, random_state=42, stratify=labels)
+    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.1, random_state=42)
 
     # 1. Logistic Regression
     log_reg = LogisticRegression(max_iter=1000)
@@ -197,5 +197,3 @@ def textClassification(url_path, file_path):
 
     # Menyimpan DataFrame ke file CSV jika diperlukan
     df_test.to_csv('classification/lama_hasil_prediksi_berbagai_model.csv', index=False)
-    with pd.ExcelWriter(file_path, engine='xlsxwriter') as writer:
-        df_test.to_excel(writer, sheet_name='Ulasan_classification', index=False)

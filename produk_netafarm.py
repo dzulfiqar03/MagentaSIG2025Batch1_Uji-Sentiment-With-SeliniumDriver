@@ -24,7 +24,7 @@ def scrape_prodnetafarm():
     dataProduk =[]
     for i in range(0, 10):
         soup = BeautifulSoup(driver.page_source, "html.parser")
-        containers = soup.findAll('a', attrs = {'data-theme' : 'Ui5-B4CDAk4Cv-cjLm4o0g== XeGJAOdlJaxl4+UD3zEJLg=='})
+        containers = soup.findAll('a', attrs = {'class' : 'Ui5-B4CDAk4Cv-cjLm4o0g=='})
         for container in containers:
             try:
                 nama = container.find('span').text

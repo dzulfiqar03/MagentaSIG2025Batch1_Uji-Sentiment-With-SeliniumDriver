@@ -1,0 +1,9 @@
+Unnamed: 0.1,Unnamed: 0,Produk,Ulasan,Perusahaan,Ulasan_preprocessed,label_sentiment,predicted_label_svm,predicted_label_log_reg,predicted_label_rf,predicted_label_nb,predicted_label_knn
+4,4,TDS Meter Digital - Alat Ukur PPM Air & Hidroponik,Belum mampu ukur air asin akuarium,Netafarm,ukur air asin akuarium,0,1,1,0,1,1
+35,35,"Molase Tetes Tebu Murni untuk Peternakan, Perikanan dan pertanian - 1kg",Sesuai pesanan datang dgn selamat 👍🏻,Netafarm,sesuai pesan selamat bagus,1,1,1,1,1,1
+10,10,"Belerang Bubuk Halus Sulfur Powder Belerang Sulfur 99,8% - 500gr",MANTAPPPPP,Netafarm,mantappppp,0,1,1,0,1,1
+0,0,Tapetool Hand Tying Machine Alat Pengikat Lanjaran Tanaman+Paket Refil,Barang sampai dengan baik terima kasih kurir ya  sangat ramah,Netafarm,barang baik terima kasih kurir iya ramah,1,1,1,1,1,1
+45,45,Paket EM4 PERTANIAN 1 Liter + MOLASE 1kg Tanah Tanaman,Vvv,Netafarm,vvv,0,1,1,0,1,1
+47,47,"Belerang Bubuk Halus Sulfur Powder Belerang Sulfur 99,8% - 500gr",Terimakasih,Netafarm,terimakasih,0,0,0,0,1,0
+66,66,Pupuk Kapur Pertanian Dolomite Dolomit 1 KG Tanah Tanaman Benih,Sesuai dg pesanan. Terima kasih,Netafarm,sesuai pesan terima kasih,1,1,1,1,1,1
+53,53,Fungisida DITHANE M-45 80wp Pembasmi Jamur Tanaman - Kemasan 200gr,.,Netafarm,,0,1,1,0,1,1
