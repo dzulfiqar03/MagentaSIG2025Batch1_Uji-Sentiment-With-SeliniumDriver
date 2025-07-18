@@ -1,11 +1,12 @@
 Unnamed: 0.1,Unnamed: 0,Produk,Ulasan,Perusahaan,Ulasan_preprocessed,label_sentiment,predicted_label_svm,predicted_label_log_reg,predicted_label_rf,predicted_label_nb,predicted_label_knn
-55,55,Netpot 5cm Putih + Flanel Sumbu Hidroponik ( Set 100pcs ),Worth The Price,Netafarm,worth price,1,1,1,1,1,1
-39,39,Pupuk Meroke Mikro Fitoflex - Kemasan original 1 Dus ( 50 pcs ),"Performa: Ok
-Kualitas pengerjaan: Ok",Netafarm,performa ok kualitas kerja ok,1,1,1,0,1,1
-4,4,Tray Semai 288 Lubang Traypot Pot Bibit Biji Tray Nampan Hidroponik,Sesuai pesanan,Netafarm,sesuai pesan,1,1,1,1,1,1
-19,19,Pupuk NPK PAK TANI Mutiara Biru 16-16-16 Penyubur Tanaman 1 KG Kalium Padi,Mantap pengiriman jg cepet,Netafarm,mantap kirim cepat,1,1,1,1,1,1
-45,45,PUPUK MEROKE VITAFLEX - 500gr,Terimakasih,Netafarm,terimakasih,0,1,0,0,0,0
-13,13,Pupuk Meroke NPK Mutiara Professional 9-25-25 Kemasan Repacking 1kg,Bagus,Netafarm,bagus,1,1,1,1,1,1
-58,58,Pupuk Nutrisi Hidroponik AB Mix NETAFARM - SAYUR DAUN 100 lt - PREMIUM,👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼,Netafarm,,0,1,1,0,1,1
-12,12,Pupuk Meroke NPK Mutiara Professional 9-25-25 Kemasan Repacking 1kg,Bagus,Netafarm,bagus,1,1,1,1,1,1
-9,9,"Belerang Bubuk Halus Sulfur Powder Belerang Sulfur 99,8% - 500gr",MANTAPPPPP,Netafarm,mantappppp,0,0,1,0,1,0
+40,40,"Molase Tetes Tebu Murni untuk Peternakan, Perikanan dan pertanian - 1kg","Pengiriman cepat,packing aman 
+Toko amanah",Netafarm,kirim cepat packing aman toko amanah,1,1,1,1,1,1
+73,73,Pupuk Kapur Pertanian Dolomite Dolomit 1 KG Tanah Tanaman Benih,Sesuai dg pesanan. Terima kasih,Netafarm,sesuai pesan terima kasih,1,1,1,1,1,1
+45,45,GUANO PHOSPHATE NPK 0-15-0 Pupuk Organik 500gr,Bagus,Netafarm,bagus,1,1,1,1,1,1
+42,42,"Molase Tetes Tebu Murni untuk Peternakan, Perikanan dan pertanian - 1kg",Sesuai pesanan datang dgn selamat 👍🏻,Netafarm,sesuai pesan selamat bagus,1,1,1,1,1,1
+18,18,"Belerang Bubuk Halus Sulfur Powder Belerang Sulfur 99,8% - 500gr",BAGUS,Netafarm,bagus,1,1,1,1,1,1
+67,67,Racun Tikus PETROKUM Umpan Pembasmi Hama Curut Rodentisida - 100 gram,"Barang sesuai, packing aman, pengiriman cepat semoga cocok",Netafarm,barang sesuai packing aman kirim cepat moga cocok,1,1,1,1,1,1
+25,25,PUPUK MEROKE NPK Mutiara 16-16-16 - 1 kg,Mantap semoga awet,Netafarm,mantap moga awet,1,1,1,1,1,1
+54,54,"Belerang Bubuk Halus Sulfur Powder Belerang Sulfur 99,8% - 500gr",Terimakasih,Netafarm,terimakasih,0,0,0,0,0,0
+13,13,Liquinox Thailand T-rex Start B1 VRL 500ml,"Baru mau nyoba, saran dr bbrp teman sich katanya bagus...smoga bagus beneran",Netafarm,nyoba saran bbrp teman sich bagus moga bagus beneran,1,1,1,0,1,1
+10,10,Pupuk Meroke SOP - Kemasan 1 kg,Sampai tepat waktu wlw beli nya jauh toko nya amanah Kurir langganan sukses selalu,Netafarm,wlw beli nya toko nya amanah kurir langgan sukses,1,1,1,0,1,1

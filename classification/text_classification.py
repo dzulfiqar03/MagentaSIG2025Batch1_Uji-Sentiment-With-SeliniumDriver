@@ -43,7 +43,7 @@ def textClassification(file_path):
     y_pred = model.predict(X_test)
     print("Akurasi:", accuracy_score(y_test, y_pred))
     # print(classification_report(y_test, y_pred, target_names=["Negatif", "Netral", "Positif"]))
-    print(classification_report(y_test, y_pred, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
     path = file_path
 
@@ -75,7 +75,7 @@ def textClassification(file_path):
 
     # Mencetak akurasi dan laporan klasifikasi
     print("Akurasi:", accuracy_score(y_test, y_pred))
-    print(classification_report(y_test, y_pred, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
 
     import pickle
@@ -102,7 +102,7 @@ def textClassification(file_path):
 
     # Mencetak akurasi dan laporan klasifikasi
     print("Akurasi:", accuracy_score(y_test, y_pred))
-    print(classification_report(y_test, y_pred, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
     filename = 'classification/svm_model.pkl'
     pickle.dump(model, open(filename, 'wb'))
@@ -149,7 +149,7 @@ def textClassification(file_path):
     y_pred_log_reg = log_reg.predict(X_test)
     print("Logistic Regression")
     print("Akurasi:", accuracy_score(y_test, y_pred_log_reg))
-    print(classification_report(y_test, y_pred_log_reg, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred_log_reg, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
     # 2. Random Forest Classifier
     rf_clf = RandomForestClassifier(n_estimators=100, random_state=42)
@@ -157,7 +157,7 @@ def textClassification(file_path):
     y_pred_rf = rf_clf.predict(X_test)
     print("\nRandom Forest Classifier")
     print("Akurasi:", accuracy_score(y_test, y_pred_rf))
-    print(classification_report(y_test, y_pred_rf, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred_rf, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
     # 3. Naive Bayes Classifier (MultinomialNB)
     nb_clf = MultinomialNB()
@@ -165,7 +165,7 @@ def textClassification(file_path):
     y_pred_nb = nb_clf.predict(X_test)
     print("\nNaive Bayes Classifier")
     print("Akurasi:", accuracy_score(y_test, y_pred_nb))
-    print(classification_report(y_test, y_pred_nb, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred_nb, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
     # 4. K-Nearest Neighbors (KNN)
     knn_clf = KNeighborsClassifier(n_neighbors=5)
@@ -173,7 +173,7 @@ def textClassification(file_path):
     y_pred_knn = knn_clf.predict(X_test)
     print("\nK-Nearest Neighbors (KNN)")
     print("Akurasi:", accuracy_score(y_test, y_pred_knn))
-    print(classification_report(y_test, y_pred_knn, labels=[0, 1, 2], target_names=["Netral", "Positif", "Negatif"], zero_division=0))
+    print(classification_report(y_test, y_pred_knn, labels=[0, 1, 2], target_names=["Netral", "Positif"], zero_division=0))
 
     # # Prediksi menggunakan setiap model
     # y_pred = model.predict(X_test)                 # SVM

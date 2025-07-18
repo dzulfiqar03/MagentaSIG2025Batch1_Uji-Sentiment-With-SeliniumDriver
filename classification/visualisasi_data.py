@@ -341,7 +341,7 @@ def visualisasi(url_path):
     results_df.to_csv("classification/svm_kernel_evaluation.csv", index=False)
 
     # Pembagian data (gunakan stratifikasi jika diperlukan)
-    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.25, random_state=42, stratify=labels)
+    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.25, random_state=42)
 
     # 1. Logistic Regression
     log_reg = LogisticRegression(max_iter=1000)
